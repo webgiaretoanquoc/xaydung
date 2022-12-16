@@ -1,0 +1,506 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.12.2
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+.flex-right ul li a{
+	text-transform: initial !important;
+	font-size: 16px;
+}
+
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+    background-color: currentColor !important;
+    border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+color: #fff;
+    background-color: #446084;
+    border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+   background : #2478ba !important;
+    border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+    color: #fff;
+    background-color: black !important;
+    border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+color: #fff !important;
+    background-color: #cb2320  !important;
+    border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+color: #fff !important;
+    background-color: #dd4e31 !important;
+    border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+color: #fff !important;
+    background-color: #0072b7 !important;
+    border-color: #0072b7     !important;
+}
+
+.single-date{
+        border-bottom: 1px dashed #ededed;
+}
+h1.entry-title{
+    font-size: 24px ;
+}
+/*Kết thúc màu sắc*/
+
+
+
+footer.entry-meta {
+
+    border-top: none !important;
+    border-bottom: 1px dashed #ececec !important;
+    
+}
+
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+    background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+    height: 12px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.related-post h7{
+	font-weight: bold;
+	    font-size: 18px;
+    float: left;
+    margin: -8px 20px 0 0;
+}
+.section-tren img{
+    width: auto;
+    height: 48px;
+}
+.section-tren .col{
+    text-align: center;
+}
+.div-thiet-ke .row-noi-that{
+     border-radius: 8px;
+    background: #f6f6f6;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.div-text-noi-that{
+    padding-bottom: 0px;
+}
+.div-text-noi-that ul{
+    list-style: none;
+    margin-bottom: 0px;
+}
+.div-text-noi-that ul li {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background: url(images/check.png) no-repeat;
+    padding: 1px 0 1px 24px;
+}
+.div-hinh-noi-that{
+    padding-bottom: 0px;
+}
+.row-thuong-hieu .col{
+    padding-bottom: 0px;
+}
+.row-dau{
+    padding-top: 30px;
+}
+.row-dau .col{
+    padding-bottom: 0px;
+}
+.row-dau .box-text-inner p{
+    color: black;
+	font-size: 12px !important;
+    text-align: justify;
+}
+
+.div-du-an-moi .col{
+    padding-bottom: 15px;
+}
+
+.footer{
+    padding-top: 0px;
+}
+.footer .section{
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.section-footer .col{
+    padding-bottom: 0px;
+}
+.section-footer .col p{
+    margin-bottom: 0px;
+}
+#header-phone {
+    margin-right: 0px;
+    display: block;
+    background: url(images/phone.png) no-repeat scroll 0px 7px;
+    padding-left: 20px;
+    float: left;
+    height: 30px;
+    
+}
+.a-hotline{
+       height: 22px;
+    padding: 0px !important;
+    /* line-height: 23px; */
+    padding-top: 14px;
+    margin-top: 9px; 
+}
+#header-phone span#hotline , span#hotline {
+    font-size: 20px;
+    padding: 0px 5px;
+    color: #fffe00;
+    font-weight: bold;
+}
+
+#header-phone span {
+    color: #FFF;
+    font-size: 11px;
+    font-weight: normal;
+    text-shadow: 1px 1px #111;
+    padding: 7px 5px;
+    float: left;
+}
+#top-bar{
+    padding-bottom: 6px;
+}
+.header-main .flex-right ul li{
+    margin-left: 15px !important;
+    margin-right: 15px
+}
+.header-main .flex-right ul li a{
+    font-size: 14px;
+    color: white;
+}
+.header-main .flex-right ul{
+    background: black;
+    padding: 0px 20px;
+    border: 4px solid #BDBDBD;
+}
+.header-main .medium-logo-center{
+    padding-left: 0px ;
+    padding-right: 0px ;
+    margin-left: 0px ;
+    margin-right: 0px ;
+    max-width:1000px;
+}
+.blog-archive  .post-item{
+    padding: 8px !important;
+
+}
+.box-blog-post  .badge{
+    display: none !important
+}
+.blog-archive .box-blog-post{
+        box-shadow: 0 1px 3px -2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 5px;
+}
+.blog-archive .box-blog-post .post-title{
+    font-size: 14px;    
+}
+.is-divider{
+    display: none
+}
+.section-tren h2{
+    font-weight: normal;
+    font-size: 18px !important;
+}
+.widget-content-lien-he h3 .lien-he {
+    border-bottom: 2px solid #98BD15;
+    color: #ffd;
+}
+.widget-content-lien-he {
+    text-align: left;
+    color: white;
+    list-style: none;
+}
+.widget-content-lien-he  li span {
+    background: transparent;
+    padding: 3px 10px;
+    font-weight: 500;
+    border-radius: 50%;
+    border: 2px solid #98BD15;
+}
+.div-form label{
+    color: white
+}
+.section-form {
+    padding-bottom: 0px !important
+}
+.section-form .col{
+padding-bottom: 0px !important
+}
+.div-form input,.div-form textarea{
+        border-radius: 10px;
+}
+.div-form .wpcf7-submit{
+    background: rgb(152,189,21) !important;
+    border: 2px solid transparent !important;
+    border-radius: 40px !important;
+}
+
+.home #main{
+    background-color: transparent !important;
+      
+    
+}
+.copyright-footer{
+    color: white !important
+}
+
+.title-thiet-ke{
+    font-size: 20px 
+}
+
+
+@media(min-width: 1023px){
+    .home #main{
+        border: 8px solid #B9B9B9;
+    }
+    .row-thuong-hieu{
+        border: 1px #CCC solid;
+    border-radius: 5px;
+    background: #f6f6f6;
+}
+
+}
+.entry-content p{
+    margin-bottom: 4px;
+}
+.entry-content{
+
+    padding-top: 0px;
+}
+.entry-content p{
+    color: black
+}
+.entry-content li{
+    color: black
+}
+.div-form .wpcf7-response-output{
+    font-size: 14px !important;
+    color: white !important
+}
+
+
+
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+	@media(max-width: 668px){
+    .div-sp-mobile{
+            padding-left: 0px !important;
+    padding-right: 0px !important;
+
+    }
+    .div-title-h1{
+       padding-bottom: 0px; 
+    }
+    .div-title-h1 h1{
+        font-size: 15px !important
+    }
+    .entry-content{
+        font-size: 13px;
+    }
+    .single-date{
+        font-size: 11px !important
+    }
+    h1.entry-title{
+        font-size: 18px !important;
+    }
+    .page-wrapper{
+        padding-top: 60px;
+    }
+    .widget-content-lien-he li{
+        font-size: 13px
+    }
+    .section-slide{
+        margin-top: 40px;
+    }
+    .mobile-sidebar .nav-sidebar li a{
+        color: black
+    }
+      .off-canvas-right .mfp-content, .off-canvas-left .mfp-content{
+        box-shadow: none !important;
+        transform: none !important
+    }
+.section-footer{
+        padding-left: 0px !important;
+    padding-right: 0px !important;
+    font-size: 13px;
+}
+    .mfp-close{
+        left: 0 !important;
+        color: black !important
+    }
+    .mobile-sidebar  .nav-sidebar li.current_page_item a{
+            color: #00aaf1;
+    }
+    .mobile-sidebar  .nav-sidebar li {
+        
+           border-bottom: 1px solid white; 
+    }
+    .mobile-sidebar  .nav-sidebar li a{
+            padding-top: 5px;
+    padding-bottom: 5px;
+        text-transform: inherit;
+    }
+    .off-canvas .sidebar-menu{
+            padding: 47px 0;
+    }
+    .mobile-sidebar .sidebar-menu .nav-sidebar{
+        background: #EAEAEA;
+    }
+    .off-canvas-right .mfp-content, .off-canvas-left .mfp-content{
+        background: transparent;
+    }
+    #header{
+        top: 0px;
+        position: fixed;
+    }
+    #top-bar{
+        display: none
+    }
+    .div-tin-tuc-moi .section-title-container{
+        margin-bottom: -7px;
+    }
+    .row-dau .small-6{
+            padding-left: 4px;
+    padding-right: 4px;
+    }
+    .div-du-an-moi .post-item,.div-tin-tuc-moi .post-item  {
+        padding: 6px !important;
+    }
+     .div-du-an-moi .post-item .post-title ,.div-tin-tuc-moi .post-item .post-title  {
+            color: #3389bf;
+    font-weight: normal;
+     }
+     .div-du-an-moi .post-item .box-text,.div-tin-tuc-moi .post-item .box-text{
+        margin-right: 0px !important
+     }
+     .div-du-an-moi .post-item .box-image,.div-tin-tuc-moi .post-item .box-image {
+            border: 1px solid #ddd;
+    background: #f1f1f1;
+    padding: 4px;
+     }
+    .row-dau .box-text-inner p{
+            text-align: center !important;
+    font-size: 12px;
+    }
+    .off-canvas-right .mfp-content, .off-canvas-left .mfp-content{
+            width: 100% !important;
+    }
+    .mobile-nav .is-small{
+        padding: 0px !important
+    }
+    .mobile-nav li .icon-menu{
+        color: black;
+            padding-left: 10px;
+            font-weight: bold !important;
+    font-size: 34px !important;
+    }
+
+    .mobile-nav .header-search .is-small .icon-search{
+            border-radius: 50%;
+    padding: 6px;
+    background: #73BE19;
+    }
+    .mobile-nav .header-search:before{
+        display: none !important
+    }
+    .mobile-nav .header-search:after{
+        display: none !important
+    }
+    .header-main .flex-right ul{
+        background: transparent !important; 
+        border: none !important;
+    }
+    .div-du-an-moi,.div-tin-tuc-moi {
+            margin-bottom: 11px;
+        padding-bottom: 0px;
+    }
+    .div-du-an-moi .row-box-shadow-2 .post-item{
+        margin-bottom: 1px;
+    border-bottom: 1px solid #ececec;
+    }
+    .div-du-an-moi .row-box-shadow-2 .col-inner{
+            box-shadow: none;
+    }
+    .div-du-an-moi .box-image{
+        margin-right: 9px;
+            width: 22% !important;
+    float: left;
+    }
+    .div-tin-tuc-moi .row-box-shadow-2 .post-item{
+        margin-bottom: 1px;
+    border-bottom: 1px solid #ececec;
+    }
+    .div-tin-tuc-moi .row-box-shadow-2 .col-inner{
+            box-shadow: none;
+    }
+     .div-tin-tuc-moi .row-box-shadow-2 .post-item{
+        padding-bottom: 10px;
+     }
+     .div-tin-tuc-moi .row-box-shadow-2 .box-text{
+        padding-bottom: 0px;
+     }
+     .div-tin-tuc-moi .from_the_blog_excerpt {
+        display: none;
+     }
+    .div-tin-tuc-moi .box-image{
+        margin-right: 9px;
+            width: 22% !important;
+    float: left;
+    }
+
+
+    .row-noi-that{
+        margin-left: -10px !important;
+        margin-right: -10px !important;
+    }
+    .div-hinh-noi-that{
+            flex-basis: 30%;
+    float: left;
+    }
+    .div-text-noi-that {
+        font-size: 12px;
+        flex-basis: 70%;
+
+    }
+.row-thuong-hieu .small-6{
+    max-width: 100% ;
+    flex-basis: 100% ;
+}
+.row-thuong-hieu .small-6 .box-image{
+    padding-right: 10px;
+    width: 20% !important;
+    float: left; 
+}
+.row-thuong-hieu .small-6 .col-inner{
+        border: 1px #CCC solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background: #f6f6f6;
+    padding: 5px;
+}
+   
+}
+	@media only screen and (max-width: 48em) {
+	
+}
+
+}
